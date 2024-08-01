@@ -4,6 +4,7 @@
 
 @layer base {
     html {
+        @apply selection:bg-primary-500 selection:text-white;
         font-size: 16px;
     }
     body {

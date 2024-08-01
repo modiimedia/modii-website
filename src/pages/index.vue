@@ -6,7 +6,7 @@
             <div class="container max-w-5xl">
                 <div class="mb-20">
                     <div class="font-bold text-3xl">MODII</div>
-                    <div class="text-lg opacity-50">
+                    <div class="text-lg text-gray-600 dark:text-gray-300">
                         Technology and Media Solutions
                     </div>
                 </div>
