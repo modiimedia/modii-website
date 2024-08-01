@@ -115,5 +115,9 @@
             @apply p-10 bg-gray-700 block rounded-lg;
             margin-bottom: 1.333em;
         }
+
+        img {
+            @apply w-full rounded;
+        }
     }
 }

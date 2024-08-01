@@ -60,6 +60,11 @@ export default defineNuxtConfig({
             theme: 'one-dark-pro',
         },
     },
+    mdc: {
+        highlight: {
+            langs: ['proto'],
+        },
+    },
     tailwindcss: {
         cssPath: '~/assets/css/tailwind.css',
     },
