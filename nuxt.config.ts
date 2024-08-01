@@ -6,6 +6,10 @@ export default defineNuxtConfig({
     ssr: true,
     components: false,
     devtools: { enabled: true },
+    site: {
+        url: 'https://modiimedia.com',
+        name: 'Modii | Technology and Media Solutions',
+    },
     app: {
         head: {
             title: 'Modii | Technology and Media Solutions',
@@ -42,6 +46,7 @@ export default defineNuxtConfig({
         '@nuxt/eslint',
         '@nuxt/content',
         '@nuxt/image',
+        '@nuxtjs/sitemap',
     ],
     srcDir: 'src',
     content: {
