@@ -37,7 +37,12 @@ export default defineNuxtConfig({
             ],
         },
     },
-    modules: ['@nuxtjs/tailwindcss', '@nuxt/eslint', '@nuxt/content'],
+    modules: [
+        '@nuxtjs/tailwindcss',
+        '@nuxt/eslint',
+        '@nuxt/content',
+        '@nuxt/image',
+    ],
     srcDir: 'src',
     content: {
         sources: {
