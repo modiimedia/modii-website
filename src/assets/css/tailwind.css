@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-size: 16px;
+    }
+    body {
+        @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white font-sans;
+        font-optical-sizing: auto;
+    }
+    .container {
+        @apply mx-auto;
+    }
+    .content {
+        @apply text-gray-700 dark:text-gray-300;
+        a {
+            @apply text-gray-900 dark:text-white;
+            text-decoration: underline;
+            text-decoration-color: theme(colors[primary].500);
+            text-decoration-style: solid;
+            text-underline-offset: 0.3em;
+            font-weight: 600;
+            text-decoration-thickness: 1px;
+            &:hover {
+                text-decoration-thickness: 2px;
+            }
+        }
+        line-height: 1.5;
+        p {
+            margin-top: 0;
+            margin-bottom: 1.333em;
+            font-size: 1em;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            @apply text-gray-900 dark:text-white;
+            a {
+                text-decoration: none;
+                font-weight: inherit;
+            }
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 2em;
+            margin-bottom: 0.66666em;
+            font-weight: 700;
+            line-height: 1.33333;
+        }
+        h3 {
+            font-size: 1.35em;
+            margin-top: 2em;
+            margin-bottom: 0.66666em;
+            font-weight: 700;
+            line-height: 1.33333;
+        }
+        h4 {
+            font-size: 1.25em;
+            margin-top: 1.5em;
+            margin-bottom: 0.66666em;
+            font-weight: 600;
+            line-height: 1.33333;
+        }
+        h5 {
+            font-size: 1.1em;
+            margin-top: 1.5em;
+            margin-bottom: 0.66666em;
+            font-weight: 600;
+            line-height: 1.33333;
+        }
+        h6 {
+            font-size: 1em;
+            margin-bottom: 1.5em;
+            margin-bottom: 0.66666em;
+            font-weight: 600;
+            line-height: 1.33333;
+        }
+        blockquote {
+            @apply px-8 py-6 bg-gray-200 dark:bg-gray-700 bg-opacity-50 dark:bg-opacity-50 border-l-2 border-primary-500;
+            margin-bottom: 1.333em;
+        }
+        ul {
+            padding-left: 1.2em;
+            margin-bottom: 1.333em;
+            li {
+                list-style-type: circle;
+                margin-bottom: 0.5em;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        ol {
+            padding-left: 1.2em;
+            margin-bottom: 1.333em;
+            li {
+                list-style-type: decimal;
+                margin-bottom: 0.5em;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        code {
+            @apply p-10 bg-gray-700 block rounded-lg;
+            margin-bottom: 1.333em;
+        }
+    }
+}
