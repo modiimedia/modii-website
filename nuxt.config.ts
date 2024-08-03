@@ -23,7 +23,7 @@ export default defineNuxtConfig({
             link: [
                 {
                     rel: 'icon',
-                    href: '/_nuxt/assets/favicon.png',
+                    href: '/_nuxt/assets/favicon-2.svg',
                 },
                 {
                     rel: 'preconnect',
