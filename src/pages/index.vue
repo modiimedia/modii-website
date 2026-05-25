@@ -99,10 +99,10 @@
                             <strong> Phone: </strong>
                             <div>
                                 <a
-                                    href="tel:+12103163129"
+                                    href="tel:+12102397709"
                                     class="underline decoration-primary-500 underline-offset-4 decoration-2 hover:decoration-4"
                                 >
-                                    (210) 316-3129
+                                    (210) 239-7709
                                 </a>
                             </div>
                         </div>
